@@ -21,3 +21,5 @@ while True:
     yag.send(to=receiver, subject=subject, contents=contents)
     print("email sent")
     time.sleep(60) # check every 60 seconds; 3600 seconds = 1 hour
+
+#we can use alternatively PythonAnywhere to execute script every day https://www.pythonanywhere.com
